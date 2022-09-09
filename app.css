@@ -1,0 +1,96 @@
+:root {
+  --red: #dc3545;
+}
+
+/*! -------------- 1- NAVBAR ---------------- */
+.navbar {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: black;
+  transition: color 0.5s;
+}
+.nav-link:hover {
+  color: var(--red);
+}
+/*! ------------- 2- CAROUSEL --------------- */
+
+.carousel-item {
+  max-height: calc(100vh - 88px);
+}
+.carousel-item h5 {
+  color: var(--red);
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 3px black;
+}
+
+.carousel-item p {
+  text-shadow: 3px 3px 3px black;
+  font-weight: 600;
+}
+
+.carousel-item .btn {
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+.carousel-indicators button {
+  background-color: var(--red) !important;
+  height: 0.4rem !important;
+  width: 3rem !important;
+  margin-right: 0.5rem !important;
+}
+
+.carousel-coption {
+  bottom: 5rem;
+}
+/*! ------------ 3- ABOUT SECTION ----------- */
+
+/*! ------------- 4- INSTRUCTORS -------------*/
+
+section#instructors .card {
+  transition: transform 1s;
+}
+section#instructors .card:hover {
+  transform: scale(1.05);
+}
+section#instructors .socials i {
+  transition: opacity 0.5s;
+}
+section#instructors .socials i:hover {
+  opacity: 0.5;
+}
+/*! ----------- 4- STUDENTS SECTION ----------*/
+
+/*! ----------- 5- COURSES SECTION ----------- */
+section#courses .nav-link {
+  color: white;
+}
+
+section#courses .nav-item .nav-link.active {
+  background-color: var(--red);
+}
+section#courses .row img {
+  border: 5px solid white;
+  border-radius: 5px;
+  max-width: 100%;
+}
+/*! ----------- 6- CONTACT SECTION ------------ */
+section#content .row i {
+  color: var(--red);
+}
+
+/** -------------- UP-BUTTON ------------------ */
+
+/*! --------------- 7- FOOTER ----------------- */
+.footer a {
+  color: white;
+  margin: 1rem;
+  font-size: 2rem;
+  transition: color 1s;
+}
+.footer a:hover {
+  color: var(--red);
+}
